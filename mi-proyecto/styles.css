@@ -1,32 +1,56 @@
 * {
     box-sizing: border-box;
+    padding: 0;
     margin: auto;
+    text-align: center;
 }
 
 .header {
-    /*margin: 10px 20px;*/
-    background-color: rgb(107, 104, 99);
+    padding: 15px 30px;
+    background-color: #c9c9c9c9;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
 }
 
-.header image {
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
+.header img {
+    height: 50px;
+    border-radius: 5px;
 }
 
 header h2 { /*la naranja*/
-    color: white;
+    color: #E87D1E;
     text-align: left;
 }
 
+.menu {
+    display: flex;
+    gap: 40px;
+}
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 16px;
     padding: 8px 12p;
     transition: 0.3s;
 }
+
+
+.comentario {
+    text-align: left;
+}
+
+.comentario-fondo {
+    text-align: auto;
+    background-color: gray;
+    display: flex;
+    justify-content: auto;
+    padding: 80px;
+    margin: auto;
+}
+
+.comentario p {
+    text-align: auto;
+}
+
 
