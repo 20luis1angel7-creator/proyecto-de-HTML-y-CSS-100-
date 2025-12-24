@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header {
+    /*margin: 10px 20px;*/
+    background-color: rgb(107, 104, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header image {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header h2 { /*la naranja*/
+    color: white;
+    text-align: left;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12p;
+    transition: 0.3s;
+}
+
