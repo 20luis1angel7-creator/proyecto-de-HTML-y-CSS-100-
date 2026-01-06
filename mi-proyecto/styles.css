@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: auto;
+    margin: 0;
     text-align: center;
 }
 
@@ -53,4 +53,145 @@ header a {
     text-align: auto;
 }
 
+.firtsSection img{
+    max-width: 100%;
+}
 
+.firt-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 210px;
+}
+
+.rightcontain {
+    display: flex;
+    background-color: orange;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.firstline {
+    background-color: #f6f2ee;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 210px;
+    
+}
+
+.secondleftcontain {
+    display: flex;
+    background-color: gray;
+    padding: 12px;
+}
+
+.secondcentercontain {
+    background-color: #9F9FA9;
+    padding: 12px;
+}
+
+.secondrightcontain {
+    background-color: #FF8904;
+    padding: 12px
+}
+
+.secondline {
+    display: grid;
+    background-color: #f6f2ee;
+    padding: 20px 20px;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.secondlineleft {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.imageflower {
+    max-width: 100%;
+}
+
+.imagen-contenedor {
+    position: relative; /*referencia para el cuadrado*/
+   
+}
+
+.imagen-contenedor img {
+    width: 100%;
+    display: block;
+}
+
+.cuadro {
+    background-color: #DCDBDA;
+    position: absolute;
+    bottom:  -90px; /*hace que sobresalga*/
+    right: 10px;   /*hace que sobresalga*/
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+/*.cuadro {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
+}*/
+.threeline {
+    height: 100px;
+    padding: 30px;
+}
+
+.three-container {
+    display: grid;
+    grid-template-columns: 39fr 25fr 30fr;
+    height: 290px;
+}
+
+.threeleftcontain {
+    background-color: #F5BC66;
+    padding: 20px;
+}
+
+.threerightcontain {
+    background-color: #DCDCDB;
+    padding: 20px;
+}
+
+.four-container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+
+}
+
+.fourrightcontainer {
+    background-color: #F5BC66;
+}
+
+
+/* .wave {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    line-height: 0;
+} */
+/* .wave svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wave path {
+    fill: #f6f2ee;
+} */
+
+
+
+/*position absolute*/
